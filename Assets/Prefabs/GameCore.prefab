@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7895729718924966500
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 740503115858144218}
+  - component: {fileID: 1414743048815259308}
+  - component: {fileID: 7719223993077965384}
+  - component: {fileID: 7132522166652641545}
+  - component: {fileID: 1396039831224269273}
+  - component: {fileID: 292560407}
+  m_Layer: 0
+  m_Name: GameCore
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &740503115858144218
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7895729718924966500}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.0419807, y: 0.26971006, z: 3.5153}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1414743048815259308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7895729718924966500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352515480f6e5cc46abdf76ee2ec3f25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerGlassObject:
+  - {fileID: 0}
+  platformCheck: {fileID: 0}
+  curPlatform: {fileID: 0}
+  levelController: {fileID: 0}
+  cmCamera: {fileID: 0}
+  onHazard: {fileID: 0}
+  isInJump: 0
+  isReverse: 0
+  defaultJumpY: 0.65
+  jumpImpulse: 0.7
+--- !u!114 &7719223993077965384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7895729718924966500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bea9dea6c9d51644bf951990b667782, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7132522166652641545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7895729718924966500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 034bdd5a4c7a28a45b5f7ea73b5aa117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameHandler: {fileID: 0}
+  pikeDamage: 1
+  glassPlus: 1
+--- !u!114 &1396039831224269273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7895729718924966500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bdb8c7ed8f5148468e5609d20cd016b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allPlatforms:
+  - {fileID: 0}
+  - {fileID: 0}
+  platformPool:
+  - {fileID: 0}
+  - {fileID: 0}
+  levelPlatfCount: 15
+--- !u!114 &292560407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7895729718924966500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7235ef050492cdc40a51d75d6fc1903a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  glassCount: 1
+  gameOverScreen: {fileID: 0}
+  animGameOver: {fileID: 0}
+  startScreen: {fileID: 0}
+  animStart: {fileID: 0}
